@@ -1,0 +1,21 @@
+# Site settings
+title: A Coding Journey
+header-img: img/home-bg.png
+email: rbmccranie@gmail.com
+copyright_name: rbmac
+description: > # this means to ignore newlines until "baseurl:"
+  The Beginning
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  rbmac
+learn_profile: rbmac
+email_username: rbmccranie@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
